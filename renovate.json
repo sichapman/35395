@@ -1,1 +1,10 @@
-{}
+{
+    "packageRules": [
+        {
+            "matchPackageNames": ["safety"],
+            "matchDatasources": ["pypi"],
+            "replacementName": "pip-audit",
+            "replacementVersion": "2.9.0"
+        }
+    ]
+}
