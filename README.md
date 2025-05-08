@@ -2,12 +2,16 @@
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate gives a generic error message - "Error updating branch: update failure"
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate updates the package name and version with no error
+
+## Workaround
+
+Prefix the `replacementVersion` with `==`. It then creates a PR : https://github.com/sichapman/35395/pull/1
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/35395
